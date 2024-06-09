@@ -26,7 +26,7 @@ export default function Home({ location }) {
     }`);
 
     const handleScroll = () => {
-        const targetElement = document.getElementById('urgent2k');
+        const targetElement = document.getElementById('urgent2ks');
         if (targetElement) {
             targetElement.scrollIntoView({ behavior: 'smooth' });
         }
@@ -350,7 +350,7 @@ export default function Home({ location }) {
 
             <div
                 className='flex flex-col md:flex-row w-full mt-10 justify-center md:h-[600px] h-[850px]'
-                
+                id='urgent2k'
             >
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
                     <div className='flex flex-col items-center gap-y-4 md:ml-20  md:text-left text-center ' id="bounce">
@@ -381,7 +381,7 @@ export default function Home({ location }) {
                                 />
                                 </a>
                             </div>
-                            <div className='my-auto' id='urgent2k'>
+                            <div className='my-auto' id='urgent2ks'>
                             <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                 <StaticImage
                                 src='../images/google-play-badge.png'
