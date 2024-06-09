@@ -39,7 +39,7 @@ export default function Home({ location }) {
             <Navbar path={location.pathname} />
 
             {/* Hero */}
-            <section className="pb-64 md:pb-96 font-poppins overflow-hidden md:overflow-visible">
+            <section className="pb-80 md:pb-96 font-poppins overflow-hidden md:overflow-visible">
                 <div className="flex flex-col static h-96">
                     <div className='relative'>
                         <div className="z-0 w-screen absolute">
@@ -120,7 +120,7 @@ export default function Home({ location }) {
                                 </div>
                             </div>
 
-                            <div className="w-full flex">
+                            <div className="w-full text-[0.65rem] md:text-base">
                                 <span>Having trouble downloading? </span>
                                 <span className='text-blue-600 cursor-pointer' onClick={handleScroll}
                                     onMouseOver={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'underline'}
@@ -128,20 +128,6 @@ export default function Home({ location }) {
                                     Click here
                                 </span>
                             </div>
-
-                            {isTabletOrMobile && (
-    <div className="w-full flex">
-        <span>Having trouble downloading? </span>
-        <span
-            className='text-blue-600 cursor-pointer'
-            onClick={handleScroll}
-            onMouseOver={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'underline'}
-            onMouseOut={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'none'}
-        >
-            Click here
-        </span>
-    </div>
-)}
 
                         </div>
                     </div>
@@ -364,7 +350,7 @@ export default function Home({ location }) {
 
             <div
                 className='flex flex-col md:flex-row w-full mt-10 justify-center md:h-[600px] h-[850px]'
-                id='urgent2k'
+                
             >
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
                     <div className='flex flex-col items-center gap-y-4 md:ml-20  md:text-left text-center ' id="bounce">
@@ -395,7 +381,7 @@ export default function Home({ location }) {
                                 />
                                 </a>
                             </div>
-                            <div className='my-auto'>
+                            <div className='my-auto' id='urgent2k'>
                             <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                 <StaticImage
                                 src='../images/google-play-badge.png'
