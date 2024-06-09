@@ -128,6 +128,21 @@ export default function Home({ location }) {
                                     Click here
                                 </span>
                             </div>
+
+                            {isTabletOrMobile && (
+    <div className="w-full flex">
+        <span>Having trouble downloading? </span>
+        <span
+            className='text-blue-600 cursor-pointer'
+            onClick={handleScroll}
+            onMouseOver={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'underline'}
+            onMouseOut={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'none'}
+        >
+            Click here
+        </span>
+    </div>
+)}
+
                         </div>
                     </div>
                 </div>
