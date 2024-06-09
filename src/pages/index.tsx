@@ -120,7 +120,7 @@ export default function Home({ location }) {
                                 </div>
                             </div>
 
-                            <div className="w-full md:flex">
+                            <div className="w-full">
                                 <span>Having trouble downloading? </span>
                                 <span className='text-blue-600 cursor-pointer' onClick={handleScroll}
                                     onMouseOver={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'underline'}
