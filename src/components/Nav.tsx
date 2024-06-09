@@ -80,7 +80,7 @@ export default function Navbar({ path }: Props) {
 			</div>
 
 			<div className='hidden lg:block my-auto font-raleway font-semibold'>
-				<a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+				<a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk" target="_blank">
 				<button  className='bg-[#6A49F2] w-[9rem] max-h-[60px] max-w-[271px] whitespace-nowrap lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
 					Get Started
 				</button>
