@@ -107,7 +107,7 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk" target="_blank">
+                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
@@ -382,7 +382,8 @@ export default function Home({ location }) {
                                 </a>
                             </div>
                             <div className='my-auto' id='urgent2ks'>
-                            <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
+                            <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk" target="_blank">
+                            
                                 <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Store'

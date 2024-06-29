@@ -143,7 +143,7 @@ export default function About({ location }) {
                                 </svg>
                             </div>
 
-                            <div><a href="tel:PHONE_NUM">+234 {"("}810{")"} 838 5896</a></div>
+                            <div><a href="tel:PHONE_NUM">+234 {"("}912{")"} 201 4483</a></div>
                         </div>
                         <div className='flex flex-row gap-x-4 my-2 text-[#686868]'>
                             <div className="my-auto">
