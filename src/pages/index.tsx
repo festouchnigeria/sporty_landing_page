@@ -66,29 +66,29 @@ export default function Home({ location }) {
 
                             <div className="text-[0.65rem] md:text-base w-screen md:w-auto px-10 md:px-0 mb-16">
                                 Loan as low as 10,000 and as high as 500,000 with sportycredit. We specialzie in providing Nigerians citizens business loans to build their financial horizone of their businesses.
-                               ` {/* Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’` */}
+                                ` {/* Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’` */}
                             </div>
 
                             <div className="hidden w-full md:flex -mt-18 md:-mt-14">
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
                                         <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
-                                        <StaticImage
-                                            src='../images/app.svg'
-                                            alt='Apple Logo'
-                                            width={180}
-                                        />
+                                            <StaticImage
+                                                src='../images/app.svg'
+                                                alt='Apple Logo'
+                                                width={180}
+                                            />
                                         </a>
-                                        
+
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk" target="_blank">
-                                        <StaticImage
-                                            src='../images/google-play-badge.png'
-                                            alt='Google Store'
-                                            width={200}
-                                        />
+                                        <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
+                                            <StaticImage
+                                                src='../images/google-play-badge.png'
+                                                alt='Google Store'
+                                                width={200}
+                                            />
                                         </a>
                                     </div>
                                 </div>
@@ -98,21 +98,21 @@ export default function Home({ location }) {
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
                                         <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
-                                        <StaticImage
-                                            src='../images/app.svg'
-                                            alt='Apple Logo'
-                                            width={90}
-                                        />
+                                            <StaticImage
+                                                src='../images/app.svg'
+                                                alt='Apple Logo'
+                                                width={90}
+                                            />
                                         </a>
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
-                                        <StaticImage
-                                            src='../images/google-play-badge.png'
-                                            alt='Google Store'
-                                            width={110}
-                                        />
+                                        <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
+                                            <StaticImage
+                                                src='../images/google-play-badge.png'
+                                                alt='Google Store'
+                                                width={110}
+                                            />
                                         </a>
                                     </div>
 
@@ -122,11 +122,14 @@ export default function Home({ location }) {
 
                             <div className="w-full text-[0.65rem] md:text-base">
                                 <span>Having trouble downloading? </span>
-                                <span className='text-blue-600 cursor-pointer' onClick={handleScroll}
-                                    onMouseOver={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'underline'}
-                                    onMouseOut={(e) => (e.target as HTMLSpanElement).style.textDecoration = 'none'}>
+                                <a
+                                    className='text-blue-600 cursor-pointer'
+                                    href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk"
+                                    target="_blank"
+                                    onMouseOver={(e) => (e.target as HTMLAnchorElement).style.textDecoration = 'underline'}
+                                    onMouseOut={(e) => (e.target as HTMLAnchorElement).style.textDecoration = 'none'}>
                                     Click here
-                                </span>
+                                </a>
                             </div>
 
                         </div>
@@ -312,7 +315,7 @@ export default function Home({ location }) {
 
                             <div className='flex flex-col gap-y-2 text-center'>
                                 <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
-                                   BUSINESS LOAN OPPORTUNITY
+                                    BUSINESS LOAN OPPORTUNITY
                                 </div>
                                 <div className="text-[#808080] text-center">
                                     Gain access to our high business loan offer of over 200,000 by repaying before due date.
@@ -324,25 +327,25 @@ export default function Home({ location }) {
                     </div>
 
                     <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-[35%]">
-                    <div className='flex flex-col gap-y-4'>
-                        <div className='m-auto'>
-                            <StaticImage
-                                src='../images/icon_4.svg'
-                                alt=''
-                                width={45}
-                            />
-                        </div>
+                        <div className='flex flex-col gap-y-4'>
+                            <div className='m-auto'>
+                                <StaticImage
+                                    src='../images/icon_4.svg'
+                                    alt=''
+                                    width={45}
+                                />
+                            </div>
 
-                        <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
-                                GOOD LOAN COLLECTION ETHICS
-                            </div>
-                            <div className="text-[#808080] text-center">
-                                {/* MoMo Credit has the most customer friendly terms and conditions any customer can ask for. */}
-                                We are dedicated to servcie of our customers as we are binded by Nigerian laws to carry out our loan collection using ethical method.
+                            <div className='flex flex-col gap-y-2 text-center'>
+                                <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                    GOOD LOAN COLLECTION ETHICS
+                                </div>
+                                <div className="text-[#808080] text-center">
+                                    {/* MoMo Credit has the most customer friendly terms and conditions any customer can ask for. */}
+                                    We are dedicated to servcie of our customers as we are binded by Nigerian laws to carry out our loan collection using ethical method.
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
 
                 </div>
@@ -357,43 +360,43 @@ export default function Home({ location }) {
                         <StaticImage
                             src='../images/bouncingiphonexx.png'
                             alt=''
-                        width={350}
+                            width={350}
                         />
                     </div>
 
-                   
-                        <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
-                            <div className='text-2xl md:text-3xl capitalize font-medium xl:w-[70%]'>
+
+                    <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
+                        <div className='text-2xl md:text-3xl capitalize font-medium xl:w-[70%]'>
                             {/* Say Goodbye to "Urgent 2K" */}
                             WITH SPORTYCREDIT YOUR URGENT 10K IS ASSURED
-                            </div>
-                            <div className='md:w-2/3'>
+                        </div>
+                        <div className='md:w-2/3'>
                             {/* With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away. */}
                             You do not need to go through the embarrsasment of begging relatives for money. A simple application processs with sportycredit gives you the amount you want with ease.
-                            </div>
-                            <div className='flex flex-row gap-x-2 -mt-8'>
+                        </div>
+                        <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
                                 <a href='https://apps.apple.com/ng/app/sporty-credit/id6450298959'>
-                                <StaticImage
-                                src='../images/app.svg'
-                                alt='Apple Logo'
-                                width={180}
-                                />
+                                    <StaticImage
+                                        src='../images/app.svg'
+                                        alt='Apple Logo'
+                                        width={180}
+                                    />
                                 </a>
                             </div>
                             <div className='my-auto' id='urgent2ks'>
-                            <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits.apk" target="_blank">
-                            
-                                <StaticImage
-                                src='../images/google-play-badge.png'
-                                alt='Google Store'
-                                width={200}
-                                />
+                                <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/sportycredits_all.apk" target="_blank">
+
+                                    <StaticImage
+                                        src='../images/google-play-badge.png'
+                                        alt='Google Store'
+                                        width={200}
+                                    />
                                 </a>
                             </div>
-                            </div>
                         </div>
-                    
+                    </div>
+
 
                 </div>
             </div>
