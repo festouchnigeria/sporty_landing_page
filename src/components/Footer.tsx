@@ -60,7 +60,7 @@ export default function Footer() {
       <div className="flex text-sm px-5 text-center">
         {" "}
         &copy; {currentYear} Sporty credit is a digital money
-        lending company provided by NEWCREDAGE NIGERIA LIMITED (RC 1923153),
+        lending company powered by NEW CREDAGE NIGERIA LIMITED (RC 1923153),
         licensed and regulated under Section 5(2) of the Money Lender’s Act
         (Cap.252) LFN 1990. We empower individuals with credit and micro loan
         solutions personal and business use. Our operations are based in
